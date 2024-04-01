@@ -1,6 +1,6 @@
-## Tutorial on how to bypass the "Open in app" popup for NSFW posts if you are not logged in.
+## Tutorial on how to bypass the restrictions for NSFW posts if you are not logged in.
 
-### 1. Block requests for the following script:
+### 1. Block requests for the following script (enable access to the post):
 ```
 www.redditstatic.com/shreddit/*xpromo-nsfw-blocking-modal-desktop-*.js
 ```
@@ -8,7 +8,7 @@ A Ublock filter would look like this
 ```
 www.redditstatic.com/shreddit/*xpromo-nsfw-blocking-modal-desktop-*.js$script,domain=www.reddit.com
 ```
-### 2. Now you can either use the script or add another Ublock filter
+### 2. Now you can either use the script or add another Ublock filter (for blocking the "open in app" popup)
 #### 2.1 Ublock Filter (preferred)
 ```
 www.reddit.com##div.prompt
