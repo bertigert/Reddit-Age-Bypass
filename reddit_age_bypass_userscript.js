@@ -4,6 +4,7 @@
 // @version      1.0
 // @description  Bypass the "open in app prompt" for nsfw posts
 // @author       Bababoiiiii
+// @license      MIT
 // @match        https://www.reddit.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
