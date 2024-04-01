@@ -8,7 +8,7 @@ A Ublock filter would look like this
 ```
 www.redditstatic.com/shreddit/*xpromo-nsfw-blocking-modal-desktop-*.js$script,domain=www.reddit.com
 ```
-### 2. Now you can either use the script or add another Ublock filter (for blocking the "open in app" popup)
+### 2. Now you can either use the script or add another Ublock filter (block the "open in app" popup)
 #### 2.1 Ublock Filter (preferred)
 ```
 www.reddit.com##div.prompt
