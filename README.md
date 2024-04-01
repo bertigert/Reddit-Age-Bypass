@@ -1,4 +1,5 @@
 ## Tutorial on how to bypass the restrictions for NSFW posts if you are not logged in.
+> [Greazyfork](https://greasyfork.org/en/scripts/491441-reddit-age-bypass/code)
 
 ### 1. Block requests for the following script
 ```
