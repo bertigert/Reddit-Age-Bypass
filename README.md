@@ -1,13 +1,13 @@
 ## Tutorial on how to bypass the restrictions for NSFW posts if you are not logged in.
-> [Greazyfork](https://greasyfork.org/en/scripts/491441-reddit-age-bypass/code)
+> [Greazyfork](https://greasyfork.org/en/scripts/491441-reddit-age-bypass/code) [Github](https://github.com/bababoi-2/Reddit-Age-Bypass)
 
 ### 1. Block requests for the following script
 ```
-www.redditstatic.com/shreddit/*xpromo-nsfw-blocking-modal-desktop-*.js
+www.redditstatic.com/shreddit/*xpromo-nsfw-blocking-modal-*.js
 ```
 A Ublock filter would look like this
 ```
-www.redditstatic.com/shreddit/*xpromo-nsfw-blocking-modal-desktop-*.js$script,domain=www.reddit.com
+www.redditstatic.com/shreddit*xpromo-nsfw-blocking-modal-*.js$script,domain=www.reddit.com
 ```
 > Step 1 is for removing this\
 ![image](https://github.com/bababoi-2/Reddit-Age-Bypass/assets/165707934/4abe1401-bbcc-4d5d-b9fc-4ae6f753be90)\
