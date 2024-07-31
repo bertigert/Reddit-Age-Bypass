@@ -1,17 +1,16 @@
 // ==UserScript==
 // @name         Reddit Age Bypass
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.01
 // @description  Bypass the "open in app prompt" for nsfw posts
 // @author       Bababoiiiii
 // @license      MIT
 // @match        https://www.reddit.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
-// @grant        none
 // ==/UserScript==
 
-// Use in Combination with this ublock filter (block this url: www.redditstatic.com/shreddit/*xpromo-nsfw-blocking-modal-desktop-*.js)
-// ||www.redditstatic.com/shreddit/*xpromo-nsfw-blocking-modal-desktop-*.js$script,domain=www.reddit.com
+// Use in Combination with this ublock filter (block this url: www.redditstatic.com/shreddit/*xpromo-nsfw-blocking-modal-*.js)
+// www.redditstatic.com/shreddit*xpromo-nsfw-blocking-modal-*.js$script,domain=www.reddit.com
 // This Ublock filter can be used as a replacement for this script, i dont know if it has any other impact though
 // www.reddit.com##div.prompt
 (function() {
