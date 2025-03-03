@@ -11,7 +11,7 @@ www.redditstatic.com/shreddit*xpromo-nsfw-blocking-modal-*.js$script,domain=www.
 ```
 > Step 1 is for removing this
 
-> ![image](https://github.com/brtigert/Reddit-Age-Bypass/assets/165707934/4abe1401-bbcc-4d5d-b9fc-4ae6f753be90)\
+> ![image](https://github.com/bababoi-2/Reddit-Age-Bypass/assets/165707934/4abe1401-bbcc-4d5d-b9fc-4ae6f753be90)\
 
 ### 2. Now you can either use the script or add another Ublock filter (This does not seem to be necessary anymore as of 09.2024)
 
@@ -26,4 +26,4 @@ Use Tampermonkey to load the [userscript](https://github.com/bertigert/Reddit-Ag
 
 > Step 2 is for removing this
 
-> ![image](https://github.com/bertigert/Reddit-Age-Bypass/assets/165707934/265ae2fe-455a-4840-b012-23398e6431b2)
+> ![image](https://github.com/bababoi-2/Reddit-Age-Bypass/assets/165707934/265ae2fe-455a-4840-b012-23398e6431b2)
